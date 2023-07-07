@@ -1,0 +1,13 @@
+.footer-link{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Poppins' sans-serif;
+    letter-spacing: -0.015em;
+}
+
+.footer-link-element{
+    color: var(--font-color) ;
+    transition: var(--transition);
+}

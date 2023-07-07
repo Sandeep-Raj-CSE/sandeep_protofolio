@@ -1,0 +1,42 @@
+.skill-card-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	margin: 50px 10%;
+}
+
+
+.skill {
+	display: flex;
+	flex-direction: column;
+	width: 122px;
+	align-items: center;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+.skill > img {
+	width: 63px;
+	margin-bottom: -10px;
+	filter: drop-shadow(0 4px 4px rgba(240, 100, 100, 0.25));
+}
+
+.skill > p {
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	color: var(--font-colorn);
+	padding: 18px 0px;
+}
+
+
+
+@media only screen and (max-width: 478px) {
+	.skill-card-container {
+		margin: 40px 2%;
+	}
+}

@@ -1,0 +1,69 @@
+.about-main {
+	/* text-align: center; */
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	font-style: normal;
+	padding: 0px 80px 0px 80px;
+	color: aqua;
+}
+
+
+
+.about-main-left,
+.about-main-right {
+	width: 50%;
+}
+
+.about-main-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.about-main-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about-sub-head {
+	
+	align-items: center;
+	justify-content: center;
+	margin: 0%;
+	color: var(--paragraph-font-color);
+	transition: var(--transition);
+	padding: 20px 0px ;
+}
+
+.about-details {
+	margin: 10px 0px 32px 0px;
+}
+
+/* .about-anime {
+	margin-right: -68px;
+	width: 520px;
+	max-width: 100%;
+	max-height: 100%;
+} */
+
+@media only screen and (max-width: 700px) {
+	.about-main {
+		flex-direction: column-reverse;
+		align-items: center;
+		padding: 0px;
+	}
+
+	.about-anime {
+		margin: 0px;
+	}
+	.about-main-left {
+		text-align:justify;
+	}
+}
+
+
+
